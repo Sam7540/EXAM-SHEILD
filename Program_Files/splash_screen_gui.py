@@ -97,17 +97,11 @@ l1.place(x=50,y=80)
 #l2.config(font=lst2)
 #l2.place(x=155,y=82)
 
-l3=Label(w,text='Developers:',fg='white',bg=a)
+l3=Label(w,text='Developed by Soumyajit M. Dutta',fg='white',bg=a)
 lst3=('Calibri (Body)',13)
 l3.config(font=lst3)
 l3.place(x=50,y=110)
 
-l5=Label(w,text='Soumyajit, Divesh, Deep, Rajpal, Karan',fg='white',bg=a)
-lst5=('Calibri (Body)',13)
-l5.config(font=lst3)
-l5.place(x=50,y=130)
-
-  
 
 
 w.mainloop()
